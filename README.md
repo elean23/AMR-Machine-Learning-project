@@ -1,6 +1,6 @@
-# **Predicting Antimicrobial Resistance (AMR) Burden in Livestock**
-## **Author:** Eleojo Nwokeoji
-## **Programme:** CFG + Masters, AI/ML 
+# Predicting Antimicrobial Resistance (AMR) Burden in Livestock
+## Author: Eleojo Nwokeoji
+## Programme: CFG +Masters, AI/ML 
 
 ---
 
@@ -41,7 +41,7 @@ Only about 1.74% of isolates (1,814 of 104,211) have usable AST phenotypes, and 
 | File | Description |
 | --- | --- |
 | `Eleojo_A_N_Assignment_1_2_amrMLM_Livestock.ipynb` | Full pipeline: Assignment 1 (cleaning, EDA, encoding) and Assignment 2 (modelling, evaluation, graph analysis) |
-| `Eleojo_A_N_Combined_Assignment_1_2_AMR_Report_Final.docx` | Combined written report |
+| `Eleojo_A_N_Combined_Assignment_1_2_AMR_Report_Final.docx` | Written report |
 
 
 ### Files generated when the notebook runs
@@ -146,7 +146,7 @@ Clinical isolates and isolates with unknown isolation type show much higher MDR 
 ### Option 2: Local
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/elean23/AMR-Machine-Learning-project.git
 cd <your-repo-name>
 
 python -m venv .venv
@@ -191,15 +191,15 @@ All random seeds are fixed (`random_state=42`).
 
 ## References
 
-- Feldgarden, M. et al. (2021) AMRFinderPlus and the Reference Gene Catalog facilitate examination of the genomic links among antimicrobial resistance, stress response, and virulence. *Scientific Reports*, 11, 12728.
+- Feldgarden, M. *et al.* (2021) AMRFinderPlus and the Reference Gene Catalog facilitate examination of the genomic links among antimicrobial resistance, stress response, and virulence. *Scientific Reports*, 11, 12728.
 - Grinsztajn, L., Oyallon, E. and Varoquaux, G. (2022) Why do tree-based models still outperform deep learning on typical tabular data? *NeurIPS*, 35, 507-520.
 - NCBI Pathogen Detection. National Library of Medicine. https://www.ncbi.nlm.nih.gov/pathogens/
-- Nguyen, H. A. et al. (2026) AMR-GNN: a multi-representation graph neural network framework to enable genomic antimicrobial resistance prediction. *Nature Communications*, 17(1), 3555.
+- Nguyen, H. A. *et al.* (2026) AMR-GNN: a multi-representation graph neural network framework to enable genomic antimicrobial resistance prediction. *Nature Communications*, 17(1), 3555.
 - UK-VARSS (2024) Veterinary Antibiotic Resistance and Sales Surveillance Report (UK-VARSS 2023). Veterinary Medicines Directorate.
 - World Health Organization (2015) Global Action Plan on Antimicrobial Resistance.
 
 ## License
 
-NCBI Pathogen Detection data are public; check NCBI's data-use policy before redistributing derived files.
+NCBI Pathogen Detection data are public.
 
 
