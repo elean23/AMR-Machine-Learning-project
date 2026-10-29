@@ -19,9 +19,7 @@ Two targets are predicted:
 
 **Leakage control:** AMR genotype is the source of both targets, so it is excluded from the predictor matrix.
 
-### Important caveat
-
-Only about 1.74% of isolates (1,814 of 104,211) have usable AST phenotypes, and none of the 6,471 UK livestock isolates do. The targets are therefore **genotype-derived proxies**, not lab-confirmed phenotypes. On the 1,357 AST-labelled livestock isolates, the genotype-derived MDR label agreed with AST in 77.9% of cases (recall ~99%, precision ~59%), meaning it tends to over-call resistance. Model outputs should be read as **genotypic resistance risk** and used as a prioritisation or triage signal alongside AST, not as a replacement for it.
+> NOTE: Only about 1.74% of isolates (1,814 of 104,211) have usable AST phenotypes, and none of the 6,471 UK livestock isolates do. The targets are therefore **genotype-derived proxies**, not lab-confirmed phenotypes. On the 1,357 AST-labelled livestock isolates, the genotype-derived MDR label agreed with AST in 77.9% of cases (recall ~99%, precision ~59%), meaning it tends to over-call resistance. Model outputs should be read as **genotypic resistance risk** and used as a prioritisation or triage signal alongside AST, not as a replacement for it.
 
 ---
 
@@ -163,8 +161,7 @@ pip install torch torch-geometric
 
 ### Run order
 
-The notebook must be run in order. Assignment 2 reads the CSVs written at the end of Assignment 1 and raises a `FileNotFoundError` if they are missing. The GNN section is skipped gracefully if PyTorch Geometric is unavailable.
-
+The notebook must be run in order. Assignment 2 reads the CSVs written at the end of Assignment 1 and raises a `FileNotFoundError` if they are missing. 
 All random seeds are fixed (`random_state=42`).
 
 ---
